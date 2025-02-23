@@ -48,6 +48,12 @@ The default Cashier currency is United States Dollars (USD). You can change the 
 CASHIER_CURRENCY=gbp
 ```
 
+You should install this package only when you are using Vite with Vue, React, or Angular:
+
+```bash
+npm install @stripe/stripe-js
+```
+
 ## Following this blog as a reference [Medium.com](https://medium.com/fabcoding/laravel-7-create-a-subscription-system-using-cashier-stripe-77cdf5c8ea5d)
 
 Also in the services file,
