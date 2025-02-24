@@ -54,6 +54,12 @@ You should install this package only when you are using Vite with Vue, React, or
 npm install @stripe/stripe-js
 ```
 
+Next,You should configure your Stripe API keys in your application's .env file. You can retrieve your Stripe API keys from the Stripe control panel only when you are using Vite with Vue, React, or Angular:
+
+```dotenv
+VITE_STRIPE_KEY=your-stripe-key
+```
+
 ## Following this blog as a reference [Medium.com](https://medium.com/fabcoding/laravel-7-create-a-subscription-system-using-cashier-stripe-77cdf5c8ea5d)
 
 Also in the services file,
